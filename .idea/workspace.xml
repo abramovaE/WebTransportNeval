@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28e4b831-ee39-4d0e-b808-a28719c25f7c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="28e4b831-ee39-4d0e-b808-a28719c25f7c" name="Default" comment="" />
     <ignored path="WebTransport.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -282,7 +280,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="1919" />
     <option name="height" value="1040" />
   </component>
@@ -1317,15 +1315,15 @@
       <workItem from="1575371658897" duration="551000" />
       <workItem from="1576671133304" duration="20000" />
       <workItem from="1578592825896" duration="1054000" />
-      <workItem from="1578935600064" duration="917000" />
+      <workItem from="1578935600064" duration="957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2083633000" />
+    <option name="totallyTimeSpent" value="2083673000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1919" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="1919" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
