@@ -1,0 +1,145 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+<beans:beans xmlns:beans= "http://www.springframework.org/schema/beans"
+             xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+             xmlns= "http://www.springframework.org/schema/security"
+             xsi:schemaLocation= "http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/security
+       http://www.springframework.org/schema/security/spring-security.xsd">
+
+
+       <http auto-config="true">
+
+              <intercept-url pattern="/addAdress" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/addAdress**" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/addAdress/**" access="hasRole('ROLE_ADMIN')"/>
+
+              <intercept-url pattern="/editAdress" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/editAdress**" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/editAdress/**" access="hasRole('ROLE_ADMIN')"/>
+
+
+              <intercept-url pattern="/depManaging" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/addDepartment" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/addDepartment**" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/addDepartment/**" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/editDep/**" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/editDep**" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/editDep" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/delUserFromDep" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/delUserFromDep**" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/delUserFromDep/**" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/delDep" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/delDep**" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/delDep/**" access="hasRole('ROLE_ADMIN')"/>
+
+
+              <intercept-url pattern="/addZone" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/addtheroute" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+
+              <intercept-url pattern="/addMediumPoint" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/addMediumPoint**" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/addMediumPoint/**" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/addAuto" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/addressesManaging" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/calculationFuelNorm" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/changesLog" access="hasAnyRole('ROLE_BUHGALTER', 'ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/changePassword" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/costByZone" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/createAReport" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/createAutoReport" access="hasAnyRole('ROLE_BUHGALTER', 'ROLE_ADMIN')"/>
+
+              <intercept-url pattern="/closeTheReport/*" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+
+
+              <intercept-url pattern="/editClosedReport"  access="hasAnyRole('ROLE_FINDIR', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/editClosedReport/*"  access="hasAnyRole('ROLE_FINDIR', 'ROLE_ADMIN')"/>
+
+              <intercept-url pattern="/editCostByZone" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/editDay" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/editPoint" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/editAuto" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+
+              <intercept-url pattern="/editUser" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/graphicsOfUsersFuel/*" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/graphicsOfUsersFuelAll" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/info" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/load/*" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_USER')"/>
+              <intercept-url pattern="/look/*" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_USER')"/>
+              <intercept-url pattern="/managerReportsManaging" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/menuOfFuel/*" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <!--<intercept-url pattern="/menuOfReports" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_BUHGALTER')"/>-->
+              <intercept-url pattern="/mobile/*" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/increase/*" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/printReport" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER')"/>
+              <intercept-url pattern="/registration" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/reportsManaging" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+
+
+              <!--<intercept-url pattern="/selectDriver" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>-->
+              <!--<intercept-url pattern="/selectYear" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>-->
+              <!--<intercept-url pattern="/selectMobileYear" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>-->
+
+
+              <!--<intercept-url pattern="/selectItem" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_BUHGALTER')"/>-->
+              <!--<intercept-url pattern="/selectItem**" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_BUHGALTER')"/>-->
+              <!--<intercept-url pattern="/selectItem/**" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_BUHGALTER')"/>-->
+
+
+              <intercept-url pattern="/selectItem/menuOfReports" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_BUHGALTER')"/>
+              <intercept-url pattern="/selectItem/fuelYear" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/selectItem/mobileYear" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/selectItem/selectDriver" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+
+
+
+              <intercept-url pattern="/showReport" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_MANAGER', 'ROLE_BUHGALTER')"/>
+              <intercept-url pattern="/loadRes" access="hasRole('ROLE_ADMIN')"/>
+
+
+
+              <intercept-url pattern="/mainSettings" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/mainSettings/**" access="hasRole('ROLE_ADMIN')"/>
+
+              <intercept-url pattern="/usersManaging/drivers" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_FINDIR')"/>
+              <intercept-url pattern="/usersManaging/other" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/usersManaging/all" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/usersManaging/sortBy/**" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_FINDIR')"/>
+              <intercept-url pattern="/usersManaging/blockUser/**" access="hasAnyRole('ROLE_FINDIR', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/usersManaging/setBuhgalteria/**" access="hasAnyRole('ROLE_FINDIR', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/usersManaging/createAutoReport/**" access="hasAnyRole('ROLE_ADMIN', 'ROLE_BUHGALTER')"/>
+              <intercept-url pattern="/usersManaging/delUser/**" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/usersManaging/editUser/**" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN')"/>
+
+
+              <intercept-url pattern="/countReports/**" access="hasRole('ROLE_ADMIN')"/>
+
+
+
+
+              <intercept-url pattern="/uploadFile/*" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_USER')"/>
+              <intercept-url pattern="/welcome" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/setIsNeedChange" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/showExpenses" access="hasAnyRole('ROLE_FINDIR', 'ROLE_ADMIN')"/>
+
+
+              <intercept-url pattern="/useForAutoReports/*" access="hasRole('ROLE_ADMIN')"/>
+
+              <intercept-url pattern="/" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_BUHGALTER')"/>
+              <form-login login-page="/login" login-processing-url="/j_spring_security_check" default-target-url="/welcome" authentication-failure-url="/login?error"
+                          username-parameter="j_login" password-parameter="j_password"/>
+
+              <logout logout-success-url="/login?logout"/>
+       </http>
+
+       <beans:bean id="encoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder">
+              <beans:constructor-arg name="strength" value="11"/>
+       </beans:bean>
+
+       <authentication-manager alias="authenticationManager">
+              <authentication-provider user-service-ref="userDetailsServiceImpl">
+                     <password-encoder ref="encoder"></password-encoder>
+              </authentication-provider>
+       </authentication-manager>
+
+</beans:beans>

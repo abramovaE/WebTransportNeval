@@ -1,0 +1,268 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jee="http://www.springframework.org/schema/jee" xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+        http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"
+        >
+
+
+
+
+
+    <!-- Настраивает управление транзакциями с помощью аннотации @Transactional -->
+    <tx:annotation-driven transaction-manager="transactionManager" />
+
+
+    <!-- Менеджер транзакций -->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+
+
+
+    <!-- Настройки бина dataSource будем хранить в отдельном файле -->
+    <bean id="propertyConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+          p:location="/WEB-INF/jdbc.properties" />
+
+    <!-- Непосредственно бин dataSource -->
+    <bean id="dataSource"
+          class="org.springframework.jdbc.datasource.DriverManagerDataSource"
+          p:driverClassName="${jdbc.driverClassName}"
+          p:url="${jdbc.databaseurl}"
+          p:username="${jdbc.username}"
+          p:password="${jdbc.password}"
+            />
+
+
+    <!--<bean id="message"-->
+          <!--class="com.springapp.mvc.model.Message"/>-->
+
+    <!-- Настройки фабрики сессий Хибернейта -->
+    <!--Hibernate-->
+    <bean id="hibernate4AnnotatedSessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="annotatedClasses">
+            
+            <list>
+                <!--<value>com.springapp.mvc.notUsed.Driver</value>-->
+                <value>com.springapp.mvc.model.AdressesCoordinates</value>
+                <value>com.springapp.mvc.model.Report</value>
+                <value>com.springapp.mvc.model.Day</value>
+                <value>com.springapp.mvc.model.Point</value>
+                <value>com.springapp.mvc.model.User</value>
+                <value>com.springapp.mvc.model.Role</value>
+                <value>com.springapp.mvc.model.UserRoles</value>
+                <value>com.springapp.mvc.model.CostByZone</value>
+                <value>com.springapp.mvc.model.ChangesLog</value>
+                <value>com.springapp.mvc.model.BlockedReportData</value>
+                <value>com.springapp.mvc.model.MainSettings</value>
+                <value>com.springapp.mvc.model.Auto</value>
+                <value>com.springapp.mvc.model.Check</value>
+                <value>com.springapp.mvc.model.checks.Item</value>
+                <value>com.springapp.mvc.model.checks.Receipt</value>
+                <value>com.springapp.mvc.model.checks.JSONCheck</value>
+                <value>com.springapp.mvc.model.Department</value>
+
+
+                <!--<value>com.springapp.mvc.model.Message</value>-->
+            </list>
+        </property>
+
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hibernate.show_sql">false</prop>
+                <!--<prop key="hbm2ddl.auto">update</prop>-->
+
+            </props>
+        </property>
+
+
+
+
+
+    </bean>
+
+
+    <!--<bean reportId="driverDao" class="com.springapp.mvc.dao.DriverDaoImpl">-->
+        <!--<property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>-->
+    <!--</bean>-->
+
+    <!--<bean reportId="driverService" class="com.springapp.mvc.service.DriverServiceImpl">-->
+        <!--<property name="driverDao" ref="driverDao"/>-->
+    <!--</bean>-->
+
+
+    <bean id="adressesCoordinatesdao" class="com.springapp.mvc.dao.AdressesCoordinatesDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+
+    </bean>
+
+    <bean id="adressesCoordinatesService" class="com.springapp.mvc.service.AdressesCoordinatesServiceImpl">
+        <property name="adressesCoordinatesDao" ref="adressesCoordinatesdao"/>
+        <property name="mainSettingsDao" ref="mainSettingsDao"/>
+    </bean>
+
+
+    <bean id="reportDao" class="com.springapp.mvc.dao.ReportDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+
+    </bean>
+
+    <bean id="reportService" class="com.springapp.mvc.service.ReportServiceImpl">
+        <property name="reportDao" ref="reportDao"/>
+    </bean>
+
+
+
+
+
+
+
+
+    <bean id="dayDao" class="com.springapp.mvc.dao.DayDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="dayService" class="com.springapp.mvc.service.DayServiceImpl">
+        <property name="dayDao" ref="dayDao"/>
+    </bean>
+
+
+    <bean id="pointDao" class="com.springapp.mvc.dao.PointDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="pointService" class="com.springapp.mvc.service.PointServiceImpl">
+        <property name="pointDao" ref="pointDao"/>
+        <property name="mainSettingsDao" ref="mainSettingsDao"/>
+    </bean>
+
+    <bean id="userDao" class="com.springapp.mvc.dao.UserDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+
+    <bean id="roleDao" class="com.springapp.mvc.dao.RoleDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="userService" class="com.springapp.mvc.service.UserServiceImpl">
+        <property name="userDao" ref="userDao"/>
+        <property name="roleDao" ref="roleDao"/>
+    </bean>
+
+    <bean id="userRolesDao" class="com.springapp.mvc.dao.UserRolesDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+
+    <bean id="userRolesService" class="com.springapp.mvc.service.UserRolesServiceImpl">
+        <property name="userRolesDao" ref="userRolesDao"/>
+    </bean>
+
+
+    <bean id="costByZoneDao" class="com.springapp.mvc.dao.CostByZoneDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="costByZoneService" class="com.springapp.mvc.service.CostByZoneServiceImpl">
+        <property name="costByZoneDao" ref="costByZoneDao"/>
+    </bean>
+
+
+    <bean id="changesLogDao" class="com.springapp.mvc.dao.ChangesLogDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="changesLogService" class="com.springapp.mvc.service.ChangesLogServiceImpl">
+        <property name="changesLogDao" ref="changesLogDao"/>
+    </bean>
+
+
+    <bean id="blockedReportDataDao" class="com.springapp.mvc.dao.BlockedReportDataDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="blockedReportDataService" class="com.springapp.mvc.service.BlockedReportDataServiceImpl">
+        <property name="blockedReportDataDao" ref="blockedReportDataDao"/>
+    </bean>
+
+
+
+
+    <bean id="mainSettingsDao" class="com.springapp.mvc.dao.MainSettingsDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="mainSettingsService" class="com.springapp.mvc.service.MainSettingsServiceImpl">
+        <property name="mainSettingsDao" ref="mainSettingsDao"/>
+    </bean>
+
+
+
+
+    <bean id="autoDao" class="com.springapp.mvc.dao.AutoDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="autoService" class="com.springapp.mvc.service.AutoServiceImpl">
+        <property name="autoDao" ref="autoDao"/>
+    </bean>
+
+    <bean id="checkDao" class="com.springapp.mvc.dao.CheckDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="checkService" class="com.springapp.mvc.service.CheckServiceImpl">
+        <property name="checkDao" ref="checkDao"/>
+    </bean>
+
+
+    <bean id="receiptDao" class="com.springapp.mvc.dao.ReceiptDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="receiptService" class="com.springapp.mvc.service.ReceiptServiceImpl">
+        <property name="receiptDao" ref="receiptDao"/>
+    </bean>
+
+
+    <bean id="jsonCheckDao" class="com.springapp.mvc.dao.JSONCheckDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="jsonCheckService" class="com.springapp.mvc.service.JSONCheckServiceImpl">
+        <property name="jsonCheckDao" ref="jsonCheckDao"/>
+    </bean>
+
+    <!--<bean id="excelParser" class="com.springapp.mvc.excelWorker.ExcelParser">-->
+        <!--<property name="dayDao" ref="dayDao"/>-->
+    <!--</bean>-->
+    <bean id="emailService" class="com.springapp.mvc.service.EmailService">
+        <property name="checkDao" ref="checkDao"/>
+    </bean>
+
+
+    <bean id="depDao" class="com.springapp.mvc.dao.DepDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="depService" class="com.springapp.mvc.service.DepServiceImpl">
+        <property name="depDao" ref="depDao"/>
+    </bean>
+
+
+</beans>
+

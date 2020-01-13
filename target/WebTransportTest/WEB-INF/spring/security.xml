@@ -1,0 +1,55 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+<beans:beans xmlns:beans= "http://www.springframework.org/schema/beans"
+             xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+             xmlns= "http://www.springframework.org/schema/security"
+             xsi:schemaLocation= "http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/security
+       http://www.springframework.org/schema/security/spring-security.xsd">
+
+
+       <http auto-config="true">
+
+              <intercept-url pattern="/addAdress" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/addtheroute" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/adminWelcome" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/adressesManaging" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/changePassword" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/costByZone" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/createAReport" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/editAdress" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/editDay" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/editPoint" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/editUser" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/fillDriversData" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/fillManagerData" access="hasRole('ROLE_MANAGER')"/>
+              <intercept-url pattern="/managerReportsManaging" access="hasRole('ROLE_MANAGER')"/>
+              <intercept-url pattern="/managerShowReport" access="hasRole('ROLE_MANAGER')"/>
+              <intercept-url pattern="/managerShowReportFull" access="hasRole('ROLE_MANAGER')"/>
+              <intercept-url pattern="/managerWelcome" access="hasRole('ROLE_MANAGER')"/>
+              <intercept-url pattern="/registration" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/reportsManaging" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/showReport" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/usersManaging" access="hasRole('ROLE_ADMIN')"/>
+              <intercept-url pattern="/welcome" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN')"/>
+
+
+
+              <intercept-url pattern="/" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <form-login login-page="/login" login-processing-url="/j_spring_security_check" default-target-url="/welcome" authentication-failure-url="/login?error"
+                          username-parameter="j_username" password-parameter="j_password"/>
+
+              <logout logout-success-url="/login?logout"/>
+       </http>
+
+       <beans:bean id="encoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder">
+              <beans:constructor-arg name="strength" value="11"/>
+       </beans:bean>
+
+       <authentication-manager alias="authenticationManager">
+              <authentication-provider user-service-ref="userDetailsServiceImpl">
+                     <password-encoder ref="encoder"></password-encoder>
+              </authentication-provider>
+       </authentication-manager>
+
+</beans:beans>
