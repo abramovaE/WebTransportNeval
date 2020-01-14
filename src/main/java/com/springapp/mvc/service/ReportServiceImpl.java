@@ -108,6 +108,12 @@ public class ReportServiceImpl implements  ReportService {
 
     @Override
     @Transactional
+    public void openTheReport(Report report) {
+        this.reportDao.openTheReport(report);
+    }
+
+    @Override
+    @Transactional
     public Report getReportForShow(Report report) {
         return this.reportDao.getReportForShow(report);
     }

@@ -50,6 +50,8 @@
               <intercept-url pattern="/createAutoReport" access="hasAnyRole('ROLE_BUHGALTER', 'ROLE_ADMIN')"/>
 
               <intercept-url pattern="/closeTheReport/*" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN')"/>
+              <intercept-url pattern="/openTheReport/*" access="hasRole('ROLE_FINDIR')"/>
+
 
 
               <intercept-url pattern="/editClosedReport"  access="hasAnyRole('ROLE_FINDIR', 'ROLE_ADMIN')"/>

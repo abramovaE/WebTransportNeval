@@ -81,6 +81,8 @@ public class ExcelParser{
       Cell countOfWorkingDays = sheet.getRow(46).getCell(4);
       Cell underDriver = sheet.getRow(49).getCell(6);
 
+      Cell buh = sheet.getRow(53).createCell(1);
+      Cell buhValue = sheet.getRow(53).createCell(6);
 
 
       String surname = "";
@@ -490,7 +492,8 @@ public class ExcelParser{
       rashodNormSumm.setCellFormula("SUM(M14:M44)");
       rashodPoNormeSumm.setCellFormula("SUM(O14:O44)");
 
-
+      buh.setCellValue("Бухгалтер");
+      buhValue.setCellValue(mainSettings.getGlavBuh().getShortFullName());
 
 
       if(isDirector) {
@@ -524,8 +527,8 @@ public class ExcelParser{
         Cell director = sheet.getRow(58).createCell(1);
         Cell directorValue = sheet.getRow(58).createCell(4);
 
-        Cell buh = sheet.getRow(60).createCell(1);
-        Cell buhValue = sheet.getRow(60).createCell(4);
+        buh = sheet.getRow(60).createCell(1);
+        buhValue = sheet.getRow(60).createCell(4);
 
 
         for(int i=47; i< 70; i++){

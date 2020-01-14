@@ -217,6 +217,17 @@ public class ReportController extends MainController implements GetModelMap{
 
 
 
+    @RequestMapping(value = "/openTheReport/{reportId}")
+    public String openTheReport(Model model, @PathVariable("reportId") long reportId) {
+        Report report = this.reportService.findByIdReport(reportId);
+        if(isFinDir){
+            if(report.isClosed()){
+                this.reportService.openTheReport(report);
+            }
+        }
+        return  reportsByPeriodManaging(model, null, report.getPeriod());
+    }
+
 
 
     @RequestMapping(value = {"/calculationFuelNorm/{userId}"}, method = RequestMethod.GET)

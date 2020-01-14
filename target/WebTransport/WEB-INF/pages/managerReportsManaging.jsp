@@ -126,8 +126,17 @@
                           <td>
                           <c:choose>
                               <c:when test="${report.closed}">
-                                  <a id = "closed" href="<c:url value="/editClosedReport/${report.id}"/>">Редактировать</a></td>
+                                  <c:choose>
+                                      <c:when test="${isFinDir}">
+                                          <a id = "closed" href="<c:url value="/openTheReport/${report.id}"/>">Разрешить</a></td>
+                                      </c:when>
+                                      <c:otherwise>
+                                          <a id = "closed" href="<c:url value="/editClosedReport/${report.id}"/>">Редактировать</a></td>
+                                      </c:otherwise>
+                                  </c:choose>
                               </c:when>
+
+
                               <c:otherwise>
                                   <a href="<c:url value="/closeTheReport/${report.id}"/>">Запретить</a>
                               </c:otherwise>

@@ -38,6 +38,8 @@ public interface ReportDao {
 
     void fillTheReport(Report report);
     void closeTheReport(Report report);
+    void openTheReport(Report report);
+
     Report getReportForShow(Report report);
 
 

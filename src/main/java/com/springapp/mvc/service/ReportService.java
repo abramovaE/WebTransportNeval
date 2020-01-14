@@ -29,6 +29,8 @@ public interface ReportService {
 
     void fillTheReport(Report report);
     void closeTheReport(Report report);
+    void openTheReport(Report report);
+
 
     int getPrevFillingDist(List<Day> allDays, Day day);
 

@@ -315,6 +315,19 @@ public class ReportDaoImpl implements ReportDao {
     }
 
     @Override
+    public void openTheReport(Report report) {
+        Session session = this.sessionFactory.getCurrentSession();
+        BlockedReportData blockedReportData = report.getBlockedReportData();
+        session.delete(blockedReportData);
+        session.flush();
+        report.setBlockedReportData(null);
+        report.setIsClosed(false);
+        session.update(report);
+        session.flush();
+    }
+
+
+    @Override
     public Report getReportForShow(Report report) {
         if(report.getAuto() == null && !report.isClosed()){
             Auto auto = report.getUser().getCurrentAuto();
