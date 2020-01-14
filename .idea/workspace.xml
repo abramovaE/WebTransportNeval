@@ -279,7 +279,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="1919" />
     <option name="height" value="1040" />
   </component>
@@ -1316,7 +1316,7 @@
       <workItem from="1578592825896" duration="1054000" />
       <workItem from="1578935600064" duration="1748000" />
       <workItem from="1578937971887" duration="2507000" />
-      <workItem from="1579010893471" duration="470000" />
+      <workItem from="1579010893471" duration="595000" />
     </task>
     <servers />
   </component>
