@@ -6,43 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28e4b831-ee39-4d0e-b808-a28719c25f7c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ReportDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ReportDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ReportDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ReportDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/excelWorker/ExcelParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/excelWorker/ExcelParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/ReportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/ReportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/ReportServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/managerReportsManaging.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/managerReportsManaging.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/ReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/ReportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/dao/ReportDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/dao/ReportDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/dao/ReportDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/dao/ReportDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/excelWorker/ExcelParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/excelWorker/ExcelParser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/excelWorker/ExcelParser$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/excelWorker/ExcelParser$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/excelWorker/ExcelParser$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/excelWorker/ExcelParser$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/excelWorker/ExcelParser$RouteListForDay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/excelWorker/ExcelParser$RouteListForDay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/excelWorker/ExcelParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/excelWorker/ExcelParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/service/ReportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/service/ReportService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/service/ReportServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/service/ReportServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/pages/managerReportsManaging.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/pages/managerReportsManaging.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/spring/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/spring/security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/ReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/ReportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/ReportDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/ReportDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/ReportDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/ReportDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/excelWorker/ExcelParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/excelWorker/ExcelParser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/excelWorker/ExcelParser$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/excelWorker/ExcelParser$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/excelWorker/ExcelParser$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/excelWorker/ExcelParser$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/excelWorker/ExcelParser$RouteListForDay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/excelWorker/ExcelParser$RouteListForDay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/excelWorker/ExcelParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/excelWorker/ExcelParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/ReportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/ReportService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/ReportServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/service/ReportServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-    </list>
+    <list default="true" id="28e4b831-ee39-4d0e-b808-a28719c25f7c" name="Default" comment="" />
     <ignored path="WebTransport.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1352,7 +1316,7 @@
       <workItem from="1578592825896" duration="1054000" />
       <workItem from="1578935600064" duration="1748000" />
       <workItem from="1578937971887" duration="2507000" />
-      <workItem from="1579010893471" duration="217000" />
+      <workItem from="1579010893471" duration="470000" />
     </task>
     <servers />
   </component>
