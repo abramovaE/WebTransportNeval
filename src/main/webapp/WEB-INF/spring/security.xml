@@ -128,6 +128,7 @@
               <intercept-url pattern="/useForAutoReports/*" access="hasRole('ROLE_ADMIN')"/>
 
               <intercept-url pattern="/" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_BUHGALTER')"/>
+
               <form-login login-page="/login" login-processing-url="/j_spring_security_check" default-target-url="/welcome" authentication-failure-url="/login?error"
                           username-parameter="j_login" password-parameter="j_password"/>
 

@@ -49,6 +49,10 @@
             <div><a href="<c:url value="${urlValue}${item.id}"/>">${item.brand}</a></div>
           </c:when>
 
+          <c:when test="${menuType eq 'menuOfReports'}">
+            <div><a href="<c:url value="${map.get(item)}"/>">${item}</a></div>
+          </c:when>
+
           <c:otherwise>
             <div><a href="<c:url value="${urlValue}${item}"/>">${item}</a></div>
           </c:otherwise>

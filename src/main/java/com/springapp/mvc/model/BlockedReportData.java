@@ -16,7 +16,6 @@ import java.time.YearMonth;
 @Table(name = "blockedReportData")
 public class BlockedReportData extends Model{
 
-
 //    От User
     @Column(name = "login")
     private String login;
@@ -43,53 +42,6 @@ public class BlockedReportData extends Model{
     @Column(name = "amortizacia")
     private Double amortizacia;
 
-
-
-
-
-//
-//
-////    От Auto
-//    @Column(name = "brand")
-//    private String brand;
-//
-//    @Column(name = "autoNumber")
-//    private String number;
-//
-//    @Column(name = "year")
-//    private Integer autoYear;
-//
-//    //    Тип кузова
-//    @Column(name = "bodyType")
-//    private String bodyType;
-//
-//    @Column(name = "engineVolume")
-//    private Double engineVolume;
-//
-//    @Column(name = "enginePower")
-//    private Integer enginePower;
-//
-//    @Column(name = "transmission")
-//    private String transmission;
-//
-//    @Column(name = "fuelType")
-//    private String fuelType;
-//
-//    @Column(name = "climateMachine")
-//    private String climateMachine;select
-//
-//    @Column(name = "stsResource")
-//    private String stsResource;
-//
-//    @Column(name = "osagoResource")
-//    private String osagoResource;
-//
-//    @Column(name = "link")
-//    private String link;
-//
-//    @Column(name = "linkNorm")
-//    private Double linkNorm;
-
     @Column(name = "summerNorm")
     private Double summerNorm;
 
@@ -105,9 +57,6 @@ public class BlockedReportData extends Model{
     @LazyCollection(LazyCollectionOption.FALSE)
 //    @Cascade(CascadeType.SAVE_UPDATE)
     private Report report;
-
-//    @Column(name = "period")
-//    private String period;
 
     //    суммарное расстояние
     @Column(name = "sumKmDistance")
@@ -135,37 +84,6 @@ public class BlockedReportData extends Model{
 
     @Column(name = "reportMonth")
     private Integer reportMonthNumber;
-
-
-
-
-
-
-
-
-
-//
-//
-////    для переноса
-//    @Column(name = "auto")
-//    private String auto;
-//
-//    public String getAuto() {
-//        return auto;
-//    }
-//
-//    public void setAuto(String auto) {
-//        this.auto = auto;
-//    }
-//
-//
-
-
-
-
-
-
-
 
 
 
@@ -238,118 +156,6 @@ public class BlockedReportData extends Model{
         this.amortizacia = amortizacia;
     }
 
-//    public String getBrand() {
-//        return brand;
-//    }
-//
-//    public void setBrand(String brand) {
-//        this.brand = brand;
-//    }
-//
-////    public String getModel() {
-////        return model;
-////    }
-////
-////    public void setModel(String model) {
-////        this.model = model;
-////    }
-//
-//    public String getNumber() {
-//        return number;
-//    }
-//
-//    public void setNumber(String number) {
-//        this.number = number;
-//    }
-//
-//    public Integer getAutoYear() {
-//        return autoYear;
-//    }
-//
-//    public void setAutoYear(Integer autoYear) {
-//        this.autoYear = autoYear;
-//    }
-//
-//    public String getBodyType() {
-//        return bodyType;
-//    }
-//
-//    public void setBodyType(String bodyType) {
-//        this.bodyType = bodyType;
-//    }
-//
-//    public Double getEngineVolume() {
-//        return engineVolume;
-//    }
-//
-//    public void setEngineVolume(Double engineVolume) {
-//        this.engineVolume = engineVolume;
-//    }
-//
-//    public Integer getEnginePower() {
-//        return enginePower;
-//    }
-//
-//    public void setEnginePower(Integer enginePower) {
-//        this.enginePower = enginePower;
-//    }
-//
-//    public String getTransmission() {
-//        return transmission;
-//    }
-//
-//    public void setTransmission(String transmission) {
-//        this.transmission = transmission;
-//    }
-//
-//    public String getFuelType() {
-//        return fuelType;
-//    }
-//
-//    public void setFuelType(String fuelType) {
-//        this.fuelType = fuelType;
-//    }
-//
-//    public String getClimateMachine() {
-//        return climateMachine;
-//    }
-//
-//    public void setClimateMachine(String climateMachine) {
-//        this.climateMachine = climateMachine;
-//    }
-//
-//    public String getStsResource() {
-//        return stsResource;
-//    }
-//
-//    public void setStsResource(String stsResource) {
-//        this.stsResource = stsResource;
-//    }
-//
-//    public String getOsagoResource() {
-//        return osagoResource;
-//    }
-//
-//    public void setOsagoResource(String osagoResource) {
-//        this.osagoResource = osagoResource;
-//    }
-//
-//    public String getLink() {
-//        return link;
-//    }
-//
-//    public void setLink(String link) {
-//        this.link = link;
-//    }
-//
-//    public Double getLinkNorm() {
-//        return linkNorm;
-//    }
-//
-//    public void setLinkNorm(Double linkNorm) {
-//        this.linkNorm = linkNorm;
-//    }
-
     public Double getSummerNorm() {
         return summerNorm;
     }
@@ -373,14 +179,6 @@ public class BlockedReportData extends Model{
     public void setReport(Report report) {
         this.report = report;
     }
-
-//    public String getPeriod() {
-//        return period;
-//    }
-//
-//    public void setPeriod(String period) {
-//        this.period = period;
-//    }
 
     public int getSumKmDistance() {
         return sumKmDistance;
@@ -450,15 +248,6 @@ public class BlockedReportData extends Model{
 
 
     public YearMonth getYearMonth() {
-//        if(reportYear == null && reportMonthNumber == null && period != null) {
-//            String[] periods = period.split(" ");
-//            if(reportYear == null){
-//                reportYear = Integer.parseInt(periods[1]);
-//            }
-//            if (reportMonthNumber == null){
-//                reportMonthNumber = DateVspom.getNumberOfMonth(periods[0]);
-//            }
-//        }
         YearMonth yearMonth = YearMonth.of(reportYear, reportMonthNumber);
         return yearMonth;
     }
@@ -475,28 +264,9 @@ public class BlockedReportData extends Model{
         this.transponder = user.getTransponder();
         this.accountancyType = user.getAccountancyType();
         this.amortizacia = user.getAmortizacia();
-
-
-//        this.brand = auto.getBrand();
-////        this.model = auto.getModel();
-//        this.number = auto.getNumber();
-//        this.autoYear = auto.getYear();
-//        this.bodyType = auto.getBodyType();
-//        this.engineVolume = auto.getEngineVolume();
-//        this.enginePower = auto.getEnginePower();
-//        this.transmission = auto.getTransmission();
-//        this.fuelType = auto.getFuelType();
-//        this.climateMachine = auto.getClimateMachine();
-//        this.stsResource = auto.getStsFileName();
-//        this.osagoResource = auto.getOsagoFileName();
-//        this.link = auto.getLink();
-//        this.linkNorm = auto.getLinkNorm();
         this.summerNorm = auto.getSummerNorm();
         this.winterNorm = auto.getWinterNorm();
-
-
         this.report = report;
-//        this.period = report.getPeriod();
         this.sumKmDistance = report.getSumKmDistance();
         this.sumSumm = report.getSumSumm();
         this.sumZone = report.getSumZone();
@@ -520,24 +290,9 @@ public class BlockedReportData extends Model{
                 ", transponder='" + transponder + '\'' +
                 ", accountancyType='" + accountancyType + '\'' +
                 ", amortizacia=" + amortizacia +
-//                ", brand='" + brand + '\'' +
-////                ", model='" + model + '\'' +
-//                ", number='" + number + '\'' +
-//                ", autoYear=" + autoYear +
-//                ", bodyType='" + bodyType + '\'' +
-//                ", engineVolume=" + engineVolume +
-//                ", enginePower=" + enginePower +
-//                ", transmission='" + transmission + '\'' +
-//                ", fuelType='" + fuelType + '\'' +
-//                ", climateMachine='" + climateMachine + '\'' +
-//                ", stsResource='" + stsResource + '\'' +
-//                ", osagoResource='" + osagoResource + '\'' +
-//                ", link='" + link + '\'' +
-//                ", linkNorm=" + linkNorm +
                 ", summerNorm=" + summerNorm +
                 ", winterNorm=" + winterNorm +
                 ", report=" + report +
-//                ", period='" + period + '\'' +
                 ", sumKmDistance=" + sumKmDistance +
                 ", sumSumm=" + sumSumm +
                 ", sumZone=" + sumZone +

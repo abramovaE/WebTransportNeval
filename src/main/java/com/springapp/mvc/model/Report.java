@@ -73,8 +73,8 @@ public class Report extends Model {
     private Integer monthNumber;
 
 
-    @Transient
-    private YearMonth yearMonth;
+//    @Transient
+//    private YearMonth yearMonth;
 
     public Report() {
         super();
@@ -83,9 +83,9 @@ public class Report extends Model {
 
 
 
-    public String getPeriod() {
-        return DateVspom.getPeriodFromYearMonth(this.getYearMonth());
-    }
+//    public String getPeriod() {
+//        return DateVspom.getPeriodFromYearMonth(this.getYearMonth());
+//    }
 
 
     public int getSumKmDistance() {
@@ -318,7 +318,7 @@ public class Report extends Model {
         if (getSumKmDistance() != report.getSumKmDistance()) return false;
         if (isClosed() != report.isClosed()) return false;
         if (getMobileWeeks() != report.getMobileWeeks()) return false;
-        if (getPeriod() != null ? !getPeriod().equals(report.getPeriod()) : report.getPeriod() != null) return false;
+//        if (getPeriod() != null ? !getPeriod().equals(report.getPeriod()) : report.getPeriod() != null) return false;
         if (getSumSumm() != null ? !getSumSumm().equals(report.getSumSumm()) : report.getSumSumm() != null)
             return false;
         if (getSumZone() != null ? !getSumZone().equals(report.getSumZone()) : report.getSumZone() != null)
@@ -340,7 +340,7 @@ public class Report extends Model {
     @Override
     public int hashCode() {
         int result = (int) (getId() ^ (getId() >>> 32));
-        result = 31 * result + (getPeriod() != null ? getPeriod().hashCode() : 0);
+//        result = 31 * result + (getPeriod() != null ? getPeriod().hashCode() : 0);
         result = 31 * result + getSumKmDistance();
         result = 31 * result + (getSumSumm() != null ? getSumSumm().hashCode() : 0);
         result = 31 * result + (getSumZone() != null ? getSumZone().hashCode() : 0);

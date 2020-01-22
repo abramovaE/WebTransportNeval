@@ -4,6 +4,7 @@ import com.springapp.mvc.model.Auto;
 import com.springapp.mvc.model.Report;
 import com.springapp.mvc.model.User;
 
+import com.springapp.mvc.vspom.DateVspom;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.persistence.criteria.CriteriaBuilder;
 import javax.servlet.http.HttpServletRequest;
 import java.time.LocalDate;
 import java.util.*;
@@ -46,24 +48,38 @@ public class SelectItemController extends MainController{
                 break;
 
             case "menuOfReports":
+                model.addAttribute("menuType", "menuOfReports");
+                urlValue = "/managerReportsManaging/";
+                Map<String, String> map = new HashMap<>();
                 List<Report> allReports = this.reportService.getAllReports();
                 Set<String> periods = new LinkedHashSet<>();
                 for(Report report: allReports){
+                    String period = DateVspom.getPeriodFromYearMonth(report.getYearMonth());
                     if(isBuhgalter) {
                         if (report.getUser().getId() == 35 || (report.getUser().getId() == 36)) {
-                            periods.add(report.getPeriod());
+                            map.put(period, urlValue + report.getYear() + "/" + report.getMonthNumber());
+                            periods.add(period);
                         }
                     }
                     else {
-                        periods.add(report.getPeriod());
+                        map.put(period, urlValue + report.getYear() + "/" + report.getMonthNumber());
+                        periods.add(period);
                     }
                 }
 
                 title = "Выберите период";
                 list = new LinkedList<>();
                 list.addAll(periods);
-                urlValue = "/managerReportsManaging/";
+
                 model.addAttribute("period", new String());
+                model.addAttribute("map", map);
+
+
+
+
+
+
+
                 break;
 
             case "selectDriver":

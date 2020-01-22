@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 import javax.mail.MessagingException;
+import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import java.io.*;
 
@@ -207,12 +208,13 @@ public class ReportController extends MainController implements GetModelMap{
         }
 
         else {
-            StringBuilder stringBuilder = new StringBuilder("Редактирование отчета за " + report.getPeriod() + " пользователя " + report.getUser().getShortFullName());
+            StringBuilder stringBuilder = new StringBuilder("Редактирование отчета за " +
+                    DateVspom.getPeriodFromYearMonth(report.getYearMonth()) + " пользователя " + report.getUser().getShortFullName());
             stringBuilder.append(" запрещено");
             this.reportService.closeTheReport(report);
-            return  reportsByPeriodManaging(model, stringBuilder.toString(), report.getPeriod());
+            return  reportsByPeriodManaging(model, stringBuilder.toString(), report.getYear(), report.getMonthNumber());
         }
-        return  reportsByPeriodManaging(model, null, report.getPeriod());
+        return  reportsByPeriodManaging(model, null, report.getYear(), report.getMonthNumber());
     }
 
 
@@ -225,7 +227,7 @@ public class ReportController extends MainController implements GetModelMap{
                 this.reportService.openTheReport(report);
             }
         }
-        return  reportsByPeriodManaging(model, null, report.getPeriod());
+        return  reportsByPeriodManaging(model, null, report.getYear(), report.getMonthNumber());
     }
 
 
@@ -308,7 +310,12 @@ public class ReportController extends MainController implements GetModelMap{
                             this.reportService.allDaysByReport(this.reportService.getPreviousReport(report)),
                             this.mainSettingsService.getCurrentMS(), report.getAuto());
 
-                    SendEMail.sendMailWithAttachment(Constants.getAddressFrom(), Constants.getPasswordFrom(), autorizedUser.geteMail(), "Транспортный отчет за " + report.getPeriod() + ", водитель:  " + surname, resultReport.getAbsolutePath());
+                    SendEMail.sendMailWithAttachment(Constants.getAddressFrom(),
+                            Constants.getPasswordFrom(),
+                            autorizedUser.geteMail(),
+                            "Транспортный отчет за " +
+                                    DateVspom.getPeriodFromYearMonth(report.getYearMonth()) +
+                                    ", водитель:  " + surname, resultReport.getAbsolutePath());
                     model.addAttribute("text", text);
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -317,7 +324,7 @@ public class ReportController extends MainController implements GetModelMap{
                 }
             }
 
-        return  reportsByPeriodManaging(model, text, report.getPeriod());
+        return  reportsByPeriodManaging(model, text, report.getYear(), report.getMonthNumber());
     }
 
 
@@ -371,15 +378,18 @@ public class ReportController extends MainController implements GetModelMap{
     }
 
 
-    @RequestMapping(value = {"/managerReportsManaging/{period}"}, method = RequestMethod.GET)
-    public String reportsByPeriodManaging(Model model, @ModelAttribute("text") String text, @PathVariable("period") String period){
+    @RequestMapping(value = {"/managerReportsManaging/{year}/{monthNumber}"}, method = RequestMethod.GET)
+    public String reportsByPeriodManaging(Model model, @ModelAttribute("text") String text, @PathVariable("year") Integer year,
+                                          @PathVariable("monthNumber") Integer monthNumber){
         YearMonth yearMonth = null;
-        try {
-//            System.out.println(period.getBytes().clone()"Октябрь 2018".getBytes());
-            yearMonth = DateVspom.getYearMonthFromPeriod(new String(period.getBytes(), "UTF-8"));
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            System.out.println("period " + period);
+//            yearMonth = DateVspom.getYearMonthFromPeriod(new String(period.getBytes(), "UTF-8"));
+//        } catch (UnsupportedEncodingException e) {
+//            e.printStackTrace();
+//        }
+
+        yearMonth = YearMonth.of(year, monthNumber);
         List<Report> allReportsByPeriod = this.reportService.getAllReportsByYearByMonth(yearMonth.getYear(), yearMonth.getMonthValue());
         if(isBuhgalter){
             User shokin = this.userService.findByIdUser(35);
@@ -390,7 +400,7 @@ public class ReportController extends MainController implements GetModelMap{
         }
         model.addAttribute("reportsList", allReportsByPeriod);
         model.addAttribute("report", new Report());
-        model.addAttribute("period", period);
+        model.addAttribute("period", DateVspom.getPeriodFromYearMonth(yearMonth));
         return "managerReportsManaging";
     }
 

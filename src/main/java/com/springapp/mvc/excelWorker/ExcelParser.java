@@ -1,6 +1,7 @@
 package com.springapp.mvc.excelWorker;
 
 import com.springapp.mvc.model.*;
+import com.springapp.mvc.vspom.DateVspom;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFCellStyle;
@@ -50,7 +51,7 @@ public class ExcelParser{
       Sheet sheet = workBook.getSheetAt(0);
 
 
-      workBook.setSheetName(0, report.getPeriod());
+      workBook.setSheetName(0, DateVspom.getPeriodFromYearMonth(report.getYearMonth()));
 
 
 //заливка желтым для даты
@@ -110,7 +111,7 @@ public class ExcelParser{
 //            "Сведения о водителе: " +
       driver.setCellValue(surname + " " + name + " " + patronymic + " " + post);
       post.setCellValue(p);
-      month.setCellValue(report.getPeriod());
+      month.setCellValue(DateVspom.getPeriodFromYearMonth(report.getYearMonth()));
 
 
 
