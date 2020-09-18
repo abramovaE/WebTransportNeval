@@ -55,6 +55,7 @@ public class WelcomeController extends MainController {
             model.addAttribute("name", fullName);
             model.addAttribute("reportsList", reports);
             model.addAttribute("report", new Report());
+            model.addAttribute("user", autorizedUser);
             return "reportsManaging";
         }
         else {

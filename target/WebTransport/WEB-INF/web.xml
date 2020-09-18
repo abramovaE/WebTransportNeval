@@ -14,6 +14,15 @@
 		<param-value>/WEB-INF/spring/root-context.xml</param-value>
 	</context-param>
 
+
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<trim-directive-whitespaces>true</trim-directive-whitespaces>
+		</jsp-property-group>
+	</jsp-config>
+
+
 	<!-- Создаёт контейнер Spring, разделяемый всеми сервлетами и фильтрами -->
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -53,15 +62,17 @@
 			<param-name>encoding</param-name>
 			<param-value>UTF-8</param-value>
 		</init-param>
-		<!--<init-param>-->
-			<!--<param-name>forceEncoding</param-name>-->
-			<!--<param-value>true</param-value>-->
-		<!--</init-param>-->
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
 	</filter>
 	<filter-mapping>
 		<filter-name>encodingFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+
+
 
 
 
@@ -83,14 +94,14 @@
 
 
 
-	<!--<security-constraint>-->
-		<!--<web-resource-collection>-->
-			<!--<web-resource-name>Protected Context</web-resource-name>-->
-			<!--<url-pattern>/*</url-pattern>-->
-		<!--</web-resource-collection>-->
-		<!--&lt;!&ndash;если ваш сервер требует аутерификации &ndash;&gt;-->
-		<!--<user-data-constraint>-->
-			<!--<transport-guarantee>CONFIDENTIAL</transport-guarantee>-->
-		<!--</user-data-constraint>-->
-	<!--</security-constraint>-->
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Protected Context</web-resource-name>
+			<url-pattern>/*</url-pattern>
+		</web-resource-collection>
+		<!--если ваш сервер требует аутерификации -->
+		<user-data-constraint>
+			<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+		</user-data-constraint>
+	</security-constraint>
 </web-app>

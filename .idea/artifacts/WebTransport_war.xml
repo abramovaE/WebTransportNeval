@@ -1,6 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="war" build-on-make="true" name="WebTransport:war">
     <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WebTransport</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="archive" name="WebTransport.war">
       <element id="artifact" artifact-name="WebTransport:war exploded" />
     </root>

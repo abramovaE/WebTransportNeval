@@ -83,9 +83,9 @@ public class Report extends Model {
 
 
 
-//    public String getPeriod() {
-//        return DateVspom.getPeriodFromYearMonth(this.getYearMonth());
-//    }
+    public String getPeriod() {
+        return DateVspom.getPeriodFromYearMonth(this.getYearMonth());
+    }
 
 
     public int getSumKmDistance() {

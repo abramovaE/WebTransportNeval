@@ -379,8 +379,10 @@ public class ReportController extends MainController implements GetModelMap{
 
 
     @RequestMapping(value = {"/managerReportsManaging/{year}/{monthNumber}"}, method = RequestMethod.GET)
-    public String reportsByPeriodManaging(Model model, @ModelAttribute("text") String text, @PathVariable("year") Integer year,
-                                          @PathVariable("monthNumber") Integer monthNumber){
+    public String reportsByPeriodManaging(Model model
+            , @ModelAttribute("text") String text
+            , @PathVariable("year") Integer year
+            , @PathVariable("monthNumber") Integer monthNumber){
         YearMonth yearMonth = null;
 //        try {
 //            System.out.println("period " + period);
@@ -391,6 +393,10 @@ public class ReportController extends MainController implements GetModelMap{
 
         yearMonth = YearMonth.of(year, monthNumber);
         List<Report> allReportsByPeriod = this.reportService.getAllReportsByYearByMonth(yearMonth.getYear(), yearMonth.getMonthValue());
+
+        System.out.println(yearMonth);
+        System.out.println("size "  + allReportsByPeriod.size());
+
         if(isBuhgalter){
             User shokin = this.userService.findByIdUser(35);
             User grigoriev = this.userService.findByIdUser(36);

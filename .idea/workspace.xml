@@ -5,14 +5,128 @@
       <artifact name="WebTransport:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="28e4b831-ee39-4d0e-b808-a28719c25f7c" name="Default" comment="" />
-    <ignored path="WebTransport.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="28e4b831-ee39-4d0e-b808-a28719c25f7c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WebTransport_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WebTransport_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WebTransport_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WebTransport_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebTransport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebTransport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/AutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/AutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/FileLoaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/FileLoaderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UsersManagingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UsersManagingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/AutoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/AutoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/load.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/load.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/reportsManaging.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/reportsManaging.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/usersManaging.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/usersManaging.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet/servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet/servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/FileLoaderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/FileLoaderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/ReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/ReportController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/UsersManagingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/UsersManagingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/dao/AutoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/dao/AutoDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/model/BlockedReportData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/model/BlockedReportData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/model/Report.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/model/Report.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/activation-1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/classmate-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/classmate-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/error_prone_annotations-2.0.18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/error_prone_annotations-2.0.18.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/gson-2.8.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/gson-2.8.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/guava-22.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/guava-22.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-commons-annotations-4.0.4.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-commons-annotations-4.0.4.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-core-4.3.5.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-core-4.3.5.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-entitymanager-4.3.5.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-entitymanager-4.3.5.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-validator-5.2.1.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-validator-5.2.1.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/httpclient-4.5.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/httpclient-4.5.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/httpcore-4.4.10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/httpcore-4.4.10.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/j2objc-annotations-1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/j2objc-annotations-1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jacob-1.14.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jacob-1.14.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jandex-1.1.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jandex-1.1.0.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/javassist-3.18.1-GA.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/json-20170516.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/json-20170516.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jsr305-1.3.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jsr305-1.3.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/log4j-1.2.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/log4j-1.2.12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/mail-1.4.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/mail-1.4.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-3.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-3.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-ooxml-3.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-ooxml-3.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-ooxml-schemas-3.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-ooxml-schemas-3.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-aop-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-aop-4.2.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-beans-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-beans-4.2.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-context-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-context-4.2.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-core-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-core-4.2.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-expression-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-expression-4.2.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-jdbc-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-jdbc-4.2.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-orm-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-orm-4.2.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-config-4.0.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-config-4.0.2.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-core-4.0.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-core-4.0.2.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-web-4.0.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-web-4.0.2.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-tx-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-tx-4.2.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-web-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-web-4.2.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-webmvc-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-webmvc-4.2.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/xml-apis-1.0.b2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/xmlbeans-2.6.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/spring/servlet/servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/spring/servlet/servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/FileLoaderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/FileLoaderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/ReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/ReportController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/UsersManagingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/UsersManagingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/AutoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/AutoDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/model/BlockedReportData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/model/BlockedReportData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/model/Report.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/model/Report.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,109 +137,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="FLATTEN" value="false" />
-    <option name="GROUP_BY_TYPE" value="true" />
-    <option name="SORT_CHILDREN" value="false" />
-    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="WebTransport" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserDetailsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="95" column="10" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectItem.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/selectItem.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockedReportDataDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/BlockedReportDataDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockedReportData.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/BlockedReportData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRolesServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserRolesServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginRegistrationController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/LoginRegistrationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,105 +151,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>update</find>
-      <find>getT</find>
-      <find>engi</find>
-      <find>txt</find>
-      <find>know</find>
-      <find>fillT</find>
-      <find>upda</find>
-      <find>usersI</find>
-      <find>allP</find>
-      <find>updatePo</find>
-      <find>delDe</find>
-      <find>errr</find>
-      <find>findByUsern</find>
-      <find>getAllRe</find>
-      <find>getAllRepo</find>
-      <find>allRe</find>
-      <find>allReport</find>
-      <find>countRe</find>
-      <find>totalA</find>
-      <find>getPer</find>
-      <find>monthN</find>
-      <find>month</find>
-      <find>hidde</find>
-      <find>stsN</find>
-      <find>routePoin</find>
-      <find>new</find>
-      <find>closeTh</find>
-      <find>closeThe</find>
-      <find>managerR</find>
-      <find>manager</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Point.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/AbstractObj.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/AdressesCoordinatesDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/CostByZone.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registration.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/validator/UserValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/validation.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet/servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/PasswordController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/RoleDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ExpensesController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/data.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Department.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Statistic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/StatisticUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/vspom/DateVspom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/StatisticsController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/chooseStatistic.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/showStatistic.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Auto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addOrEditAuto.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editUser.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/load.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/vspom/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ChangesLogDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/AutoDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PointDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/AutoController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/info.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/managerReportsManaging.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ReportDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/ReportService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/ReportServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ReportDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/selectItem.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/SelectItemController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ReportController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/excelWorker/ExcelParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Report.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/LoginRegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/BlockedReportData.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -248,35 +162,13 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="WebTransport" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="WebTransport" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="width" value="1919" />
-    <option name="height" value="1040" />
-  </component>
+  <component name="ProjectId" id="1fuL90nvMzWnBDhdIOEpuOiZZ3L" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -315,95 +207,31 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WebTransport3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTransport3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTransport3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTransport3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTransport3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTransport3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTransport3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTransport3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTransport3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTransport3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTransport3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTransport3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTransport3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTransport3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTransport3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTransport3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebTransport3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebTransport3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/kot/IdeaProjects/WebTransport/src/main/webapp/WEB-INF/pages/createAReport.jsp" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/RaspProject3se" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27597404" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -432,73 +260,86 @@
       <recent name="com.springapp.mvc.dao" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="false" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat9" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="WebTransport:war exploded">
@@ -509,13 +350,15 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebTransport_2" />
+        <option name="HTTP_PORT" value="8090" />
+        <option name="JNDI_PORT" value="1223" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="true" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="true" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="true" />
       <output_file path="%IDEA_RUN:TOMCAT_HOME%/logs/catalina.out" is_save="true" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file enabled="true" id="Tomcat Manager" />
+      <predefined_log_file enabled="true" id="Tomcat Host Manager" />
+      <predefined_log_file enabled="true" id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="43049" />
       </RunnerSettings>
@@ -564,7 +407,8 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="WebTransport:war exploded" />
         </option>
@@ -583,11 +427,11 @@
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebTransport" />
         <option name="HTTP_PORT" value="8081" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="50744" />
       </RunnerSettings>
@@ -636,60 +480,21 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="WebTransport:war exploded" />
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="JUnit.AppTests" />
@@ -697,6 +502,7 @@
       <item itemvalue="Tomcat Server.Tomcat 7" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1225,54 +1031,41 @@
       <workItem from="1579098709691" duration="1505000" />
       <workItem from="1579109968006" duration="4000" />
       <workItem from="1579720251706" duration="1229000" />
+      <workItem from="1586851216956" duration="6000" />
+      <workItem from="1586864024767" duration="711000" />
+      <workItem from="1595414303568" duration="39000" />
+      <workItem from="1597062878289" duration="909000" />
+      <workItem from="1599418985139" duration="705000" />
+      <workItem from="1599485153218" duration="624000" />
+      <workItem from="1599588073868" duration="129000" />
+      <workItem from="1600310609480" duration="1454000" />
+      <workItem from="1600312125564" duration="14000" />
+      <workItem from="1600312246299" duration="6000" />
+      <workItem from="1600312346261" duration="172000" />
+      <workItem from="1600312570092" duration="1191000" />
+      <workItem from="1600314165441" duration="75000" />
+      <workItem from="1600314428757" duration="78000" />
+      <workItem from="1600315221710" duration="224000" />
+      <workItem from="1600315875450" duration="87000" />
+      <workItem from="1600316184480" duration="1416000" />
+      <workItem from="1600394944684" duration="8898000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2094681000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1919" height="1040" extended-state="1" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.52966326" side_tool="true" weight="0.40320855" />
-      <window_info anchor="bottom" id="Application Servers" order="8" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="6" visible="true" weight="0.1510945" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Designer" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3290735" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24959914" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.14102565" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32550693" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Palette&#9;" order="5" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.06296691" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4703367" weight="0.26535088" />
-      <window_info anchor="bottom" id="Spring" order="11" weight="0.3290735" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32941177" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68401015" visible="true" weight="0.28457022" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info id="Web" order="3" sideWeight="0.31598985" side_tool="true" weight="0.28962612" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="4" sideWeight="0.30240965" side_tool="true" weight="0.20779915" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49786323" weight="0.21052632" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3244397" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1282,8 +1075,127 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="443" y="130" width="1024" height="852" key="#Project_Structure" timestamp="1600312387435">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="443" y="130" width="1024" height="852" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1600312387435" />
+    <state x="639" y="139" width="632" height="842" key="#Tomcat_7" timestamp="1600310723017">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="639" y="139" width="632" height="842" key="#Tomcat_7/0.27.1920.1053@0.27.1920.1053" timestamp="1600310723017" />
+    <state x="731" y="440" width="437" height="247" key="#Tomcat_Server" timestamp="1600312374045">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="731" y="440" width="437" height="247" key="#Tomcat_Server/0.27.1920.1053@0.27.1920.1053" timestamp="1600312374045" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600315963169">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600315963169" />
+    <state x="732" y="308" width="424" height="519" key="FileChooserDialogImpl" timestamp="1600395089857">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="732" y="308" width="424" height="519" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1600395089857" />
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1600403605911">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600403605911" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1600403605909">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600403605909" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1600403605907">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600403605907" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1600403605910">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600403605910" />
+    <state width="1294" height="277" key="GridCell.Tab.1.bottom" timestamp="1600401183028">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
+    <state width="1294" height="277" key="GridCell.Tab.1.center" timestamp="1600401183027">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183027" />
+    <state width="1294" height="277" key="GridCell.Tab.1.left" timestamp="1600401183027">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183027" />
+    <state width="1294" height="277" key="GridCell.Tab.1.right" timestamp="1600401183028">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
+    <state width="1294" height="277" key="GridCell.Tab.2.bottom" timestamp="1600401183028">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.2.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
+    <state width="1294" height="277" key="GridCell.Tab.2.center" timestamp="1600401183028">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.2.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
+    <state width="1294" height="277" key="GridCell.Tab.2.left" timestamp="1600401183028">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.2.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
+    <state width="1294" height="277" key="GridCell.Tab.2.right" timestamp="1600401183028">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.2.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
+    <state width="1294" height="277" key="GridCell.Tab.3.bottom" timestamp="1600401183029">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.3.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
+    <state width="1294" height="277" key="GridCell.Tab.3.center" timestamp="1600401183028">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.3.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
+    <state width="1294" height="277" key="GridCell.Tab.3.left" timestamp="1600401183028">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.3.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
+    <state width="1294" height="277" key="GridCell.Tab.3.right" timestamp="1600401183029">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.3.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
+    <state width="1294" height="277" key="GridCell.Tab.4.bottom" timestamp="1600401183029">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.4.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
+    <state width="1294" height="277" key="GridCell.Tab.4.center" timestamp="1600401183029">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.4.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
+    <state width="1294" height="277" key="GridCell.Tab.4.left" timestamp="1600401183029">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.4.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
+    <state width="1294" height="277" key="GridCell.Tab.4.right" timestamp="1600401183029">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.4.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
+    <state width="1294" height="277" key="GridCell.Tab.5.bottom" timestamp="1600401183030">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.5.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183030" />
+    <state width="1294" height="277" key="GridCell.Tab.5.center" timestamp="1600401183030">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.5.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183030" />
+    <state width="1294" height="277" key="GridCell.Tab.5.left" timestamp="1600401183030">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.5.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183030" />
+    <state width="1294" height="277" key="GridCell.Tab.5.right" timestamp="1600401183030">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1294" height="277" key="GridCell.Tab.5.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183030" />
+    <state x="443" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1600312596225">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600312596225" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1291,446 +1203,16 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addDepartment.jsp</url>
           <line>65</line>
-          <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="112" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/CostByZoneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/vspom/Vspom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Auto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4155">
-          <caret line="370" column="19" selection-start-line="370" selection-start-column="15" selection-end-line="370" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/CommonMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/CountAttr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/AutoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ChangesLogDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="44" column="62" lean-forward="true" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addOrEditAdress.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addOrEditAuto.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="164" column="72" selection-start-line="164" selection-start-column="72" selection-end-line="164" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Day.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="169" column="15" selection-start-line="169" selection-start-column="15" selection-end-line="169" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/PointController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/DayController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PointDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="39" column="167" selection-start-line="39" selection-start-column="167" selection-end-line="39" selection-end-column="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/prog/jdk-11.0.4/lib/src.zip!/java.base/java/math/RoundingMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/AutoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/AutoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5385">
-          <caret line="359" column="48" selection-start-line="359" selection-start-column="48" selection-end-line="359" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/ChangesLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/AutoDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/AutoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/vspom/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/reportsManaging.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ReportDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="40" column="32" selection-start-line="40" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/ReportService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/ReportServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/ReportDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4545">
-          <caret line="321" column="24" selection-start-line="321" selection-start-column="24" selection-end-line="321" selection-end-column="24" />
-          <folding>
-            <element signature="e#6886#6887#0" expanded="true" />
-            <element signature="e#6962#6963#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/vspom/DateVspom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/managerReportsManaging.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1788">
-          <caret line="140" column="63" selection-start-line="140" selection-start-column="63" selection-end-line="140" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/SelectItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ReportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="317" column="36" selection-start-line="317" selection-start-column="36" selection-end-line="317" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/excelWorker/ExcelParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="113" column="81" selection-start-line="113" selection-start-column="81" selection-end-line="113" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="90" column="35" lean-forward="true" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/AdressesCoordinatesDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UsersManagingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/scedulers.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/WelcomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="130" column="59" selection-start-line="130" selection-start-column="59" selection-end-line="130" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/SecurityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/LoginRegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserRolesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" column="10" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/selectItem.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/BlockedReportDataDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/BlockedReportData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>WebTransport:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.27597404" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.27597404" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.27597404" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>WebTransport</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.27597404" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.27597404" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WebTransport3$Tomcat_7.ic" NAME="Tomcat 7 Coverage Results" MODIFIED="1600310898789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -74,7 +74,7 @@
 
                 <div id="txt_3">
                     <div><a href="<c:url value="/usersManaging/editUser/${autorizedUser.id}"/>">Учетная запись</a></div>
-                    <div><a href="<c:url value="/selectItem/menuOfUsersAuto"/>">Мои автомобили</a></div>
+                    <div><a href="<c:url value="/selectItem/menuOfUsersAuto/${autorizedUser.id}"/>">Мои автомобили</a></div>
                     <div><a href="<c:url value="/reportsManaging"/>">Посмотреть мои отчеты</a></div>
                     <div><a href="<c:url value="/createAReport"/>">Создать новый отчет</a></div>
                 </div>
@@ -196,7 +196,7 @@
 
         <c:if test="${!isAdmin && !isManager && !isBuhgalter}">
             <div><a href="<c:url value="/usersManaging/editUser/${autorizedUser.id}"/>">Учетная запись</a></div>
-            <div><a href="<c:url value="/selectItem/menuOfUsersAuto"/>">Мои автомобили</a></div>
+            <div><a href="<c:url value="/selectItem/menuOfUsersAuto/${autorizedUser.id}"/>">Мои автомобили</a></div>
             <div><a href="<c:url value="/reportsManaging"/>">Посмотреть мои отчеты</a></div>
             <div><a href="<c:url value="/createAReport"/>">Создать новый отчет</a></div>
             <div><a href="<c:url value="/calculationFuelNorm/${autorizedUser.id}"/>">Расчет норматива расхода топлива</a></div>

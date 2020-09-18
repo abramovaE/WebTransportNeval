@@ -196,6 +196,15 @@
                     </tr>
 
 
+                    <c:if test="${user.login eq 'shokin' || user.login eq 'GrigorievY'}">
+                        <td class="grey"><a href="<c:url value="/usersManaging/createAutoReport/${user.id}/0/0"/>">Сген. отчет</a></td>
+                    </c:if>
+
+                    <c:if test="${user.id == 19}">
+                        <td class="grey"><a href="<c:url value="/usersManaging/createAutoReport/${user.id}/0/0"/>">Сген. отчет</a></td>
+                    </c:if>
+
+
                     <tr>
                         <td></td>
                     </tr>

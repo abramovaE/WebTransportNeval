@@ -18,6 +18,7 @@
 
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>${title}</title>
     <style>
         <%@include file="../../resources/style.css" %>

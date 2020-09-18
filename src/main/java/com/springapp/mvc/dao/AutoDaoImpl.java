@@ -37,69 +37,60 @@ public class AutoDaoImpl implements AutoDao {
         System.out.println("update auto");
         Session session = this.sessionFactory.getCurrentSession();
         Auto oldAuto = findAutoById(auto.getId());
-        List<Field> differentUserFields = ChangesLogDaoImpl.getDifferentFields(oldAuto, auto);
-        if(differentUserFields != null && !differentUserFields.isEmpty()){
+        if(oldAuto!= null){
+            List<Field> differentUserFields = ChangesLogDaoImpl.getDifferentFields(oldAuto, auto);
+            if(differentUserFields != null && !differentUserFields.isEmpty()){
 
-            List<ChangesLog> changesLogList = new ArrayList<>();
-            for(Field field: differentUserFields){
-                System.out.println(field.getName());
-                ChangesLog changesLog = new ChangesLog();
-                try {
-                    Class autoClass = auto.getClass();
-                    Field autoField = autoClass.getDeclaredField(field.getName());
-                    autoField.setAccessible(true);
+                List<ChangesLog> changesLogList = new ArrayList<>();
+                for(Field field: differentUserFields){
+                    System.out.println(field.getName());
+                    ChangesLog changesLog = new ChangesLog();
+                    try {
+                        Class autoClass = auto.getClass();
+                        Field autoField = autoClass.getDeclaredField(field.getName());
+                        autoField.setAccessible(true);
 
-                    Object autoFieldValue = field.get(auto);
-                    Object oldAutFieldValue = field.get(oldAuto);
+                        Object autoFieldValue = field.get(auto);
+                        Object oldAutFieldValue = field.get(oldAuto);
 
-                    if(autoFieldValue == null){
-                        autoFieldValue = new String("");
+                        if(autoFieldValue == null){
+                            autoFieldValue = new String("");
+                        }
+
+                        if(oldAutFieldValue == null){
+                            oldAutFieldValue = new String("");
+                        }
+
+                        String subject = auto.getBrand() +" " + ChangesLogDaoImpl.getFieldName(field);
+
+
+                        changesLog.setNewData(autoFieldValue.toString());
+                        changesLog.setOldData(oldAutFieldValue.toString());
+                        LocalDateTime localDateTime= LocalDateTime.now();
+                        changesLog.setDate(localDateTime.format(DateTimeFormatter.ofPattern("d MMM uuuu HH:mm:ss")).toString());
+
+                        changesLog.setSubject(subject);
+                        changesLog.setUser(auto.getUser());
+                        changesLog.setAuto(auto);
+                        changesLog.setWhoChanged(autorizedUser);
+                    } catch (NoSuchFieldException e) {
+                        e.printStackTrace();
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
                     }
-
-                    if(oldAutFieldValue == null){
-                        oldAutFieldValue = new String("");
-                    }
-
-                    String subject = auto.getBrand() +" " + ChangesLogDaoImpl.getFieldName(field);
-
-
-                    changesLog.setNewData(autoFieldValue.toString());
-                    changesLog.setOldData(oldAutFieldValue.toString());
-                    LocalDateTime localDateTime= LocalDateTime.now();
-                    changesLog.setDate(localDateTime.format(DateTimeFormatter.ofPattern("d MMM uuuu HH:mm:ss")).toString());
-
-                    changesLog.setSubject(subject);
-                    changesLog.setUser(auto.getUser());
-                    changesLog.setAuto(auto);
-                    changesLog.setWhoChanged(autorizedUser);
-                } catch (NoSuchFieldException e) {
-                    e.printStackTrace();
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
+                    changesLogList.add(changesLog);
+                    session.save(changesLog);
                 }
-                changesLogList.add(changesLog);
-                session.save(changesLog);
             }
+            session.clear();
         }
-        session.clear();
-
-
-
-
-
-
-
-
-        session.update(auto);
+        session.saveOrUpdate(auto);
     }
 
 
     @Override
     public void updateAuto(Auto auto) {
         Session session = this.sessionFactory.getCurrentSession();
-
-
-
         session.update(auto);
     }
 

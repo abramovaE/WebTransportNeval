@@ -90,14 +90,8 @@ public class AutoController extends MainController {
 
                 }
             }
-
         }
-
-
-
         return "redirect:/usersManaging/editUser/" + auto.getUser().getId();
-
-
     }
 
 

@@ -109,7 +109,7 @@
               <intercept-url pattern="/usersManaging/sortBy/**" access="hasAnyRole('ROLE_MANAGER', 'ROLE_ADMIN', 'ROLE_FINDIR')"/>
               <intercept-url pattern="/usersManaging/blockUser/**" access="hasAnyRole('ROLE_FINDIR', 'ROLE_ADMIN')"/>
               <intercept-url pattern="/usersManaging/setBuhgalteria/**" access="hasAnyRole('ROLE_FINDIR', 'ROLE_ADMIN')"/>
-              <intercept-url pattern="/usersManaging/createAutoReport/**" access="hasAnyRole('ROLE_ADMIN', 'ROLE_BUHGALTER')"/>
+              <intercept-url pattern="/usersManaging/createAutoReport/**" access="hasAnyRole('ROLE_ADMIN', 'ROLE_BUHGALTER', 'ROLE_VANYA')"/>
               <intercept-url pattern="/usersManaging/delUser/**" access="hasRole('ROLE_ADMIN')"/>
               <intercept-url pattern="/usersManaging/editUser/**" access="hasAnyRole('ROLE_USER', 'ROLE_MANAGER', 'ROLE_ADMIN')"/>
 

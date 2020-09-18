@@ -4,6 +4,7 @@ import com.springapp.mvc.enums.*;
 import com.springapp.mvc.model.*;
 
 import com.springapp.mvc.vspom.*;
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -15,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
+import java.nio.file.Files;
 import java.util.List;
 
 
@@ -28,7 +30,8 @@ public class FileLoaderController extends MainController {
     private static final String JPEG = "jpeg";
     private static final String IMAGE_JPEG = "image/jpeg";
 
-
+    private static final Logger logger = Logger.getLogger(FileLoaderController.class.getName());
+    private static final Logger filesLogger = Logger.getLogger("filesLogger");
 
 
     @RequestMapping(value = "/load/{fileType}/{objectId}", method = RequestMethod.GET)
@@ -89,6 +92,9 @@ public class FileLoaderController extends MainController {
                              ) {// имена параметров (тут - "file") - из формы JSP.
 
 
+
+        filesLogger.info("-----");
+        filesLogger.info(autorizedUser.getShortFullName() + " start uploading file: " + file.getOriginalFilename());
         String name = null;
         String rootPath = null;
         switch (fileType){
@@ -126,18 +132,12 @@ public class FileLoaderController extends MainController {
                     name = name.replaceAll(" ", "_");
                 }
 
-                File uploadedFile = new File(dir.getAbsolutePath() + File.separator + name);
-                BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(uploadedFile));
-                stream.write(bytes);
-                stream.flush();
-                stream.close();
-
+                File uploadedFile = uploadFile(dir.getAbsolutePath() + File.separator + name, bytes);
 
                 Auto auto = null;
                 User user = null;
-
-
                 text = "Вы успешно загрузили файл " + file.getOriginalFilename();
+
                 switch (fileType){
                     case "sts":
                         auto = this.autoService.findAutoById(objectId);
@@ -155,7 +155,6 @@ public class FileLoaderController extends MainController {
                         user.setVuFileName(name);
                         user.setVuDate(date);
                         break;
-
                 }
 
                 if(auto != null){
@@ -163,7 +162,6 @@ public class FileLoaderController extends MainController {
                     model.addAttribute("user", auto.getUser());
                     model.addAttribute("auto", auto);
                     model.addAttribute("userAutos", auto.getUser().getAutos());
-
                 }
 
                 if (user != null){
@@ -174,17 +172,23 @@ public class FileLoaderController extends MainController {
                 }
 
 
+                filesLogger.info(autorizedUser.getShortFullName() + " uploaded file: " + file.getOriginalFilename() +
+                        " to dir: " + uploadedFile.getAbsolutePath() + " , for user: " + user.getShortFullName() + ", for auto: " + auto.getBrand());
+                filesLogger.info(autorizedUser.getShortFullName()  + " file " + uploadedFile.getAbsolutePath() + " is exist: " + uploadedFile.exists());
 
             } catch (FileNotFoundException e) {
                 text = "Файл " + file.getOriginalFilename() + " не найден";
+                filesLogger.info(autorizedUser.getShortFullName() + " FileNotFoundException " + e.getLocalizedMessage());
             } catch (IOException e) {
                 text = "Ошибка ввода/вывода";
+                filesLogger.info(autorizedUser.getShortFullName() + " IOException " + e.getLocalizedMessage());
             }
 
         }
 
         else {
             text = "Загрузка не удалась. Файл " + file.getOriginalFilename() + " пуст";
+            filesLogger.info(autorizedUser.getShortFullName() + " uploading failed, file: " + file.getOriginalFilename() + " is empty") ;
         }
 
 
@@ -197,7 +201,7 @@ public class FileLoaderController extends MainController {
         model.addAttribute("transmissionTypes", TransmissionTypes.values());
         model.addAttribute("notDriver", false);
 
-
+        filesLogger.info("-----");
         return "editUser";
     }
 
@@ -205,6 +209,12 @@ public class FileLoaderController extends MainController {
     @ResponseBody
     public void lookImage(HttpServletResponse response, @PathVariable("objectId") long objectId,
                           @PathVariable("fileType") String fileType) throws IOException {
+        filesLogger.info("-----");
+        filesLogger.info(autorizedUser.getShortFullName() + " start looking file");
+
+//        request.setCharacterEncoding("UTF-8");
+
+
         Auto auto;
         User user;
         try {
@@ -224,6 +234,7 @@ public class FileLoaderController extends MainController {
                     if(auto.getOsagoFileName() == null){
                         throw new IllegalArgumentException();
                     }
+
                     file = new File(Constants.MAIN_PATH +  "/osago/" + auto.getOsagoFileName());
                     break;
 
@@ -237,14 +248,21 @@ public class FileLoaderController extends MainController {
             }
 
 
-            OutputStream outputStream = response.getOutputStream();
+            filesLogger.info(autorizedUser.getShortFullName()  + " file: " + file + ", is exist: " + file.exists());
+
+
+
             BufferedImage in = ImageIO.read(file);
             BufferedImage newImage = new BufferedImage(in.getWidth(), in.getHeight(), BufferedImage.TYPE_INT_RGB);
             Graphics2D g = newImage.createGraphics();
             g.drawImage(in, 0, 0, null);
             g.dispose();
             response.setContentType(IMAGE_JPEG);
+            response.setCharacterEncoding("UTF-8");
+
+            OutputStream outputStream = response.getOutputStream();
             ImageIO.write(newImage, JPEG, outputStream);
+            outputStream.flush();
             outputStream.close();
 
         } catch (IOException e) {
@@ -256,7 +274,7 @@ public class FileLoaderController extends MainController {
             PrintWriter out = response.getWriter();
             out.println("ошибка ввода/вывода");
             out.close();
-
+            filesLogger.info(autorizedUser.getShortFullName()  + " IOException: " + e.getLocalizedMessage());
         }
 
         catch (IllegalArgumentException e){
@@ -264,10 +282,12 @@ public class FileLoaderController extends MainController {
 
             // поток для данных ответа
             PrintWriter out = response.getWriter();
-            out.println("файл не загружен");
+            out.println("файл не загружен: " + e.getMessage());
             out.close();
-        }
 
+            filesLogger.info(autorizedUser.getShortFullName()  + " IllegalArgumentException: " + e.getLocalizedMessage());
+        }
+        filesLogger.info("-----");
     }
 
 
@@ -292,5 +312,13 @@ public class FileLoaderController extends MainController {
 
 
 
+    private File uploadFile(String path, byte[] bytes) throws IOException {
+        File uploadedFile = new File(path);
+        BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(uploadedFile));
+        stream.write(bytes);
+        stream.flush();
+        stream.close();
+        return uploadedFile;
+    }
 
 }

@@ -249,7 +249,11 @@ public class UsersManagingController extends MainController
             if(userId == 35 || userId == 36){
                 report = Vspom.createCanvasAutoReport(allAdressesCoordinates, mainSettings, 4, true, 0, 0);
             }
-            else if (userId == 13){
+            else if (userId == 13 || userId == 19){
+                if(monthNumber == 0 || year == 0){
+                    monthNumber = prevYearMonth.getMonthValue();
+                    year = prevYearMonth.getYear();
+                }
                 report = Vspom.createCanvasAutoReport(allAdressesCoordinates, mainSettings, 4, false, monthNumber, year);
             }
 

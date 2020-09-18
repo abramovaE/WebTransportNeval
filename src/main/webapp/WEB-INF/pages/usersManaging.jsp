@@ -10,6 +10,7 @@
 
 <html>
 <head>
+    <meta charset="UTF-8">
     <c:choose>
         <c:when test="${usersType eq 'drivers'}">
             <title>Управление водителями</title>

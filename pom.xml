@@ -4,7 +4,7 @@
     <groupId>com.springapp</groupId>
     <artifactId>WebTransport</artifactId>
     <packaging>war</packaging>
-    <version>3.1</version>
+    <version>3.2</version>
     <name>WebTransport</name>
 
     <properties>

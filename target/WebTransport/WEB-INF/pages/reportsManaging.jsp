@@ -8,7 +8,7 @@
 
 
 <html>
-  <head>
+  <head><meta charset="UTF-8">
     <title>Управление отчетами</title>
     <style>
       <%@include file="../../resources/style.css" %>
@@ -51,6 +51,12 @@
             <div><a href="<c:url value="${btn.value}"/>">${btn.key}</a></div>
         </c:forEach>
         <div><a href="<c:url value="/createAReport"/>">Создать новый отчет</a></div>
+
+        <c:if test="${user.id == 19}">
+            <div><a href="<c:url value="/usersManaging/createAutoReport/${user.id}/0/0"/>">Сген. отчет</a></div>
+        </c:if>
+
+
     </div>
   </header>
 
@@ -59,6 +65,7 @@
         <c:if test="${text != null}">
             <script type="text/javascript">alert('${text}');</script>
         </c:if>
+
 
 
         <c:if test="${!empty reportsList}">
@@ -108,6 +115,9 @@
                 <%--</td>--%>
             </tr>
           </c:forEach>
+
+
+
         </table>
       </c:if>
     </div>
