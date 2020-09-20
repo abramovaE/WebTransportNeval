@@ -118,63 +118,75 @@ public class FileLoaderController extends MainController {
         if (!file.isEmpty()) {
             try {
                 byte[] bytes = file.getBytes();
-                name = file.getOriginalFilename();
-//                String rootPath = path;
+//                name = file.getOriginalFilename();
+                String originName = file.getOriginalFilename();
+                name = objectId + fileType + originName.substring(originName.lastIndexOf("."));
 
-//                String rootPath = "C:\\path\\" ; //try also "C:\path\"
+//                System.out.println("new name: " + name);
+
 
                 File dir = new File(rootPath);
                 if (!dir.exists()) {
                     dir.mkdirs();
                 }
 
-                if(name.contains(" ")){
-                    name = name.replaceAll(" ", "_");
-                }
+//                if(new File(dir.getAbsolutePath() + File.separator + name).exists()){
+//                    text = "Загрузка отменена. Файл " + name + " уже существует";
+//                    filesLogger.info(autorizedUser.getShortFullName() + " uploading stopped, file: " + name + " exists") ;
+//
+//                }
+//
+//                else {
+                    if(name.contains(" ")){
+                        name = name.replaceAll(" ", "_");
+                    }
 
-                File uploadedFile = uploadFile(dir.getAbsolutePath() + File.separator + name, bytes);
+                    File uploadedFile = uploadFile(dir.getAbsolutePath() + File.separator + name, bytes);
 
-                Auto auto = null;
-                User user = null;
-                text = "Вы успешно загрузили файл " + file.getOriginalFilename();
+                    Auto auto = null;
+                    User user = null;
+                    text = "Вы успешно загрузили файл " + file.getOriginalFilename();
 
-                switch (fileType){
-                    case "sts":
-                        auto = this.autoService.findAutoById(objectId);
-                        auto.setStsFileName(name);
-                        break;
+                    switch (fileType){
+                        case "sts":
+                            auto = this.autoService.findAutoById(objectId);
+                            auto.setStsFileName(name);
+                            break;
 
-                    case "osago":
-                        auto = this.autoService.findAutoById(objectId);
-                        auto.setOsagoFileName(name);
-                        auto.setOsagoDate(date);
-                        break;
+                        case "osago":
+                            auto = this.autoService.findAutoById(objectId);
+                            auto.setOsagoFileName(name);
+                            auto.setOsagoDate(date);
+                            break;
 
-                    case "vu":
-                        user = this.userService.findByIdUser(objectId);
-                        user.setVuFileName(name);
-                        user.setVuDate(date);
-                        break;
-                }
+                        case "vu":
+                            user = this.userService.findByIdUser(objectId);
+                            user.setVuFileName(name);
+                            user.setVuDate(date);
+                            break;
+                    }
 
-                if(auto != null){
-                    this.autoService.updateAuto(auto, autorizedUser);
-                    model.addAttribute("user", auto.getUser());
-                    model.addAttribute("auto", auto);
-                    model.addAttribute("userAutos", auto.getUser().getAutos());
-                }
+                    if(auto != null){
+                        this.autoService.updateAuto(auto, autorizedUser);
+                        model.addAttribute("user", auto.getUser());
+                        model.addAttribute("auto", auto);
+                        model.addAttribute("userAutos", auto.getUser().getAutos());
+                    }
 
-                if (user != null){
-                    this.userService.updateUser(user);
-                    model.addAttribute("user", user);
-                    model.addAttribute("auto", user.getCurrentAuto());
-                    model.addAttribute("userAutos", user.getAutos());
-                }
+                    if (user != null){
+                        this.userService.updateUser(user);
+                        model.addAttribute("user", user);
+                        model.addAttribute("auto", user.getCurrentAuto());
+                        model.addAttribute("userAutos", user.getAutos());
+                    }
 
 
-                filesLogger.info(autorizedUser.getShortFullName() + " uploaded file: " + file.getOriginalFilename() +
-                        " to dir: " + uploadedFile.getAbsolutePath() + " , for user: " + user.getShortFullName() + ", for auto: " + auto.getBrand());
-                filesLogger.info(autorizedUser.getShortFullName()  + " file " + uploadedFile.getAbsolutePath() + " is exist: " + uploadedFile.exists());
+                    filesLogger.info(autorizedUser.getShortFullName() + " uploaded file: " + file.getOriginalFilename() +
+                            " to dir: " + uploadedFile.getAbsolutePath() + " , for user: " + user.getShortFullName() + ", for auto: " + auto.getBrand());
+                    filesLogger.info(autorizedUser.getShortFullName()  + " file " + uploadedFile.getAbsolutePath() + " is exist: " + uploadedFile.exists());
+//                }
+
+
 
             } catch (FileNotFoundException e) {
                 text = "Файл " + file.getOriginalFilename() + " не найден";

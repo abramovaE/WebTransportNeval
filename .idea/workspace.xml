@@ -28,104 +28,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28e4b831-ee39-4d0e-b808-a28719c25f7c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WebTransport_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WebTransport_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WebTransport_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WebTransport_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTransport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebTransport.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/AutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/AutoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/FileLoaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/FileLoaderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/ReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UsersManagingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UsersManagingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/WelcomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/AutoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/AutoDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/load.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/load.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/reportsManaging.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/reportsManaging.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/usersManaging.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/usersManaging.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet/servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet/servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebTransport.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/FileLoaderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/FileLoaderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/ReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/ReportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/UsersManagingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/controller/UsersManagingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/dao/AutoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/dao/AutoDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/model/BlockedReportData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/model/BlockedReportData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/model/Report.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/classes/com/springapp/mvc/model/Report.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/activation-1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/classmate-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/classmate-1.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/error_prone_annotations-2.0.18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/error_prone_annotations-2.0.18.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/gson-2.8.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/gson-2.8.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/guava-22.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/guava-22.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-commons-annotations-4.0.4.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-commons-annotations-4.0.4.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-core-4.3.5.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-core-4.3.5.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-entitymanager-4.3.5.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-entitymanager-4.3.5.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-validator-5.2.1.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/hibernate-validator-5.2.1.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/httpclient-4.5.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/httpclient-4.5.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/httpcore-4.4.10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/httpcore-4.4.10.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/j2objc-annotations-1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/j2objc-annotations-1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jacob-1.14.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jacob-1.14.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jandex-1.1.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jandex-1.1.0.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/javassist-3.18.1-GA.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/json-20170516.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/json-20170516.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jsr305-1.3.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jsr305-1.3.9.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/log4j-1.2.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/log4j-1.2.12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/mail-1.4.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/mail-1.4.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-3.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-3.11.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-ooxml-3.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-ooxml-3.11.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-ooxml-schemas-3.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/poi-ooxml-schemas-3.11.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-aop-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-aop-4.2.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-beans-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-beans-4.2.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-context-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-context-4.2.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-core-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-core-4.2.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-expression-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-expression-4.2.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-jdbc-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-jdbc-4.2.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-orm-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-orm-4.2.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-config-4.0.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-config-4.0.2.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-core-4.0.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-core-4.0.2.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-web-4.0.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-security-web-4.0.2.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-tx-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-tx-4.2.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-web-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-web-4.2.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-webmvc-4.2.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/spring-webmvc-4.2.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/xml-apis-1.0.b2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/lib/xmlbeans-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/spring/servlet/servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/spring/servlet/servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebTransport/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebTransport/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/FileLoaderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/FileLoaderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/ReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/ReportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/UsersManagingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/controller/UsersManagingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/AutoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/dao/AutoDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/model/BlockedReportData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/model/BlockedReportData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/mvc/model/Report.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/mvc/model/Report.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1049,6 +957,8 @@
       <workItem from="1600315875450" duration="87000" />
       <workItem from="1600316184480" duration="1416000" />
       <workItem from="1600394944684" duration="8898000" />
+      <workItem from="1600486387281" duration="1738000" />
+      <workItem from="1600622969654" duration="1561000" />
     </task>
     <servers />
   </component>
@@ -1096,106 +1006,114 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="732" y="308" width="424" height="519" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1600395089857" />
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1600403605911">
+    <state width="1294" height="277" key="GridCell.Tab.0.bottom" timestamp="1600624105586">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600403605911" />
-    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1600403605909">
+    <state width="1294" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105586" />
+    <state width="1294" height="277" key="GridCell.Tab.0.center" timestamp="1600624105585">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600403605909" />
-    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1600403605907">
+    <state width="1294" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105585" />
+    <state width="1294" height="277" key="GridCell.Tab.0.left" timestamp="1600624105585">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600403605907" />
-    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1600403605910">
+    <state width="1294" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105585" />
+    <state width="1294" height="277" key="GridCell.Tab.0.right" timestamp="1600624105585">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600403605910" />
-    <state width="1294" height="277" key="GridCell.Tab.1.bottom" timestamp="1600401183028">
+    <state width="1294" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105585" />
+    <state width="1294" height="277" key="GridCell.Tab.1.bottom" timestamp="1600624105586">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
-    <state width="1294" height="277" key="GridCell.Tab.1.center" timestamp="1600401183027">
+    <state width="1294" height="277" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105586" />
+    <state width="1294" height="277" key="GridCell.Tab.1.center" timestamp="1600624105586">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183027" />
-    <state width="1294" height="277" key="GridCell.Tab.1.left" timestamp="1600401183027">
+    <state width="1294" height="277" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105586" />
+    <state width="1294" height="277" key="GridCell.Tab.1.left" timestamp="1600624105586">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183027" />
-    <state width="1294" height="277" key="GridCell.Tab.1.right" timestamp="1600401183028">
+    <state width="1294" height="277" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105586" />
+    <state width="1294" height="277" key="GridCell.Tab.1.right" timestamp="1600624105586">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
-    <state width="1294" height="277" key="GridCell.Tab.2.bottom" timestamp="1600401183028">
+    <state width="1294" height="277" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105586" />
+    <state width="1294" height="277" key="GridCell.Tab.2.bottom" timestamp="1600624105587">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.2.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
-    <state width="1294" height="277" key="GridCell.Tab.2.center" timestamp="1600401183028">
+    <state width="1294" height="277" key="GridCell.Tab.2.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105587" />
+    <state width="1294" height="277" key="GridCell.Tab.2.center" timestamp="1600624105586">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.2.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
-    <state width="1294" height="277" key="GridCell.Tab.2.left" timestamp="1600401183028">
+    <state width="1294" height="277" key="GridCell.Tab.2.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105586" />
+    <state width="1294" height="277" key="GridCell.Tab.2.left" timestamp="1600624105586">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.2.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
-    <state width="1294" height="277" key="GridCell.Tab.2.right" timestamp="1600401183028">
+    <state width="1294" height="277" key="GridCell.Tab.2.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105586" />
+    <state width="1294" height="277" key="GridCell.Tab.2.right" timestamp="1600624105587">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.2.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
-    <state width="1294" height="277" key="GridCell.Tab.3.bottom" timestamp="1600401183029">
+    <state width="1294" height="277" key="GridCell.Tab.2.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105587" />
+    <state width="1294" height="277" key="GridCell.Tab.3.bottom" timestamp="1600624105587">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.3.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
-    <state width="1294" height="277" key="GridCell.Tab.3.center" timestamp="1600401183028">
+    <state width="1294" height="277" key="GridCell.Tab.3.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105587" />
+    <state width="1294" height="277" key="GridCell.Tab.3.center" timestamp="1600624105587">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.3.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
-    <state width="1294" height="277" key="GridCell.Tab.3.left" timestamp="1600401183028">
+    <state width="1294" height="277" key="GridCell.Tab.3.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105587" />
+    <state width="1294" height="277" key="GridCell.Tab.3.left" timestamp="1600624105587">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.3.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183028" />
-    <state width="1294" height="277" key="GridCell.Tab.3.right" timestamp="1600401183029">
+    <state width="1294" height="277" key="GridCell.Tab.3.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105587" />
+    <state width="1294" height="277" key="GridCell.Tab.3.right" timestamp="1600624105587">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.3.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
-    <state width="1294" height="277" key="GridCell.Tab.4.bottom" timestamp="1600401183029">
+    <state width="1294" height="277" key="GridCell.Tab.3.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105587" />
+    <state width="1294" height="277" key="GridCell.Tab.4.bottom" timestamp="1600624105588">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.4.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
-    <state width="1294" height="277" key="GridCell.Tab.4.center" timestamp="1600401183029">
+    <state width="1294" height="277" key="GridCell.Tab.4.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105588" />
+    <state width="1294" height="277" key="GridCell.Tab.4.center" timestamp="1600624105588">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.4.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
-    <state width="1294" height="277" key="GridCell.Tab.4.left" timestamp="1600401183029">
+    <state width="1294" height="277" key="GridCell.Tab.4.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105588" />
+    <state width="1294" height="277" key="GridCell.Tab.4.left" timestamp="1600624105587">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.4.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
-    <state width="1294" height="277" key="GridCell.Tab.4.right" timestamp="1600401183029">
+    <state width="1294" height="277" key="GridCell.Tab.4.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105587" />
+    <state width="1294" height="277" key="GridCell.Tab.4.right" timestamp="1600624105588">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.4.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183029" />
-    <state width="1294" height="277" key="GridCell.Tab.5.bottom" timestamp="1600401183030">
+    <state width="1294" height="277" key="GridCell.Tab.4.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105588" />
+    <state width="1294" height="277" key="GridCell.Tab.5.bottom" timestamp="1600624105589">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.5.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183030" />
-    <state width="1294" height="277" key="GridCell.Tab.5.center" timestamp="1600401183030">
+    <state width="1294" height="277" key="GridCell.Tab.5.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105589" />
+    <state width="1294" height="277" key="GridCell.Tab.5.center" timestamp="1600624105588">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.5.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183030" />
-    <state width="1294" height="277" key="GridCell.Tab.5.left" timestamp="1600401183030">
+    <state width="1294" height="277" key="GridCell.Tab.5.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105588" />
+    <state width="1294" height="277" key="GridCell.Tab.5.left" timestamp="1600624105588">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.5.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183030" />
-    <state width="1294" height="277" key="GridCell.Tab.5.right" timestamp="1600401183030">
+    <state width="1294" height="277" key="GridCell.Tab.5.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105588" />
+    <state width="1294" height="277" key="GridCell.Tab.5.right" timestamp="1600624105589">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1294" height="277" key="GridCell.Tab.5.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600401183030" />
+    <state width="1294" height="277" key="GridCell.Tab.5.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600624105589" />
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1600312596225">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600312596225" />
+    <state x="371" y="166" width="1168" height="781" key="new project wizard" timestamp="1600623776361">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="371" y="166" width="1168" height="781" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1600623776361" />
+    <state x="624" y="252" key="run.anything.popup" timestamp="1600623000353">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1600623000353" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
