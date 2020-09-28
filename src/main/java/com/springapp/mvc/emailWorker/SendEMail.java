@@ -38,12 +38,12 @@ public class SendEMail {
             MimeMessage message = new MimeMessage(session);
             message.setFrom(new InternetAddress(username));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipients));
-            message.setSubject("Транспортный отчет");
+            message.setSubject("Транспортный отчет", "utf-8");
 
 
             // create and fill the first message part
             MimeBodyPart mbp1 = new MimeBodyPart();
-            mbp1.setText(mes);
+            mbp1.setText(mes, "utf-8");
 
             // create the second message part
             MimeBodyPart mbp2 = new MimeBodyPart();

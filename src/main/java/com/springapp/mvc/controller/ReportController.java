@@ -2,6 +2,8 @@ package com.springapp.mvc.controller;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.ibm.icu.text.Transliterator;
+import com.springapp.mvc.Translit;
 import com.springapp.mvc.emailWorker.SendEMail;
 import com.springapp.mvc.enums.BodyTypes;
 import com.springapp.mvc.excelWorker.ExcelParser;
@@ -276,12 +278,18 @@ public class ReportController extends MainController implements GetModelMap{
         }
 
         String surname = report.getUser().getSurname() + report.getUser().getName().charAt(0) + report.getUser().getPatronymic().charAt(0);
+
+
+
         File reports = new File(Constants.MAIN_PATH  + "/reports/" + report.getYear() + "/" + report.getMonthNumber());
         if(!reports.exists()){
             reports.mkdirs();
         }
 
-        String p = reports.getAbsolutePath() + "/" + DateVspom.getMonthFromInt(report.getMonthNumber()) + report.getYear() +"_" + surname + ".xlsx";
+        String p = reports.getAbsolutePath() + "/" + report.getMonthNumber() + "-" + report.getYear() +"_" + surname + ".xlsx";
+        Translit translit = new Translit();
+        p = translit.transliterate(p);
+
         String text="Отчет отправлен на e-mail";
         User user = report.getUser();
         boolean isDirector = false;

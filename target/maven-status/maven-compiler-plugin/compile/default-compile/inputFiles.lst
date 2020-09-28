@@ -71,6 +71,7 @@
 /home/kotofeya/Рабочий стол/WebTransport3/src/main/java/com/springapp/mvc/model/User.java
 /home/kotofeya/Рабочий стол/WebTransport3/src/main/java/com/springapp/mvc/service/UserServiceImpl.java
 /home/kotofeya/Рабочий стол/WebTransport3/src/main/java/com/springapp/mvc/model/Expense.java
+/home/kotofeya/Рабочий стол/WebTransport3/src/main/java/com/springapp/mvc/Translit.java
 /home/kotofeya/Рабочий стол/WebTransport3/src/main/java/com/springapp/mvc/fns/Document.java
 /home/kotofeya/Рабочий стол/WebTransport3/src/main/java/com/springapp/mvc/service/MainSettingsServiceImpl.java
 /home/kotofeya/Рабочий стол/WebTransport3/src/main/java/com/springapp/mvc/dao/UserRolesDao.java
